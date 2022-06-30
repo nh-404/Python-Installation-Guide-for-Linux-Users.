@@ -1,17 +1,17 @@
 # PythonSetup_Linux
 
-- Python installation guide for linux user. This document describes how to install Pyrhon3 on Ubuntu or debain Linux machines.
+- Python installation guide for linux user. This document describes how to install Pyrhon3 on 9Ubuntu or debain) based Linux system.
 
 # Installation Process
 
-- First of all you should confrom about python3 installation. Is still python3 installed on your machine...?
+- First of all you should confrom about python3 installation. Is still python3 installed on your system...?
 
 # Installation check
 
 - open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command 
 
  ```
- $ python3.10 --version
+ python3.10 --version
  
   ```
   
@@ -39,7 +39,7 @@ python3.10: command not found
 - open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command 
 
   ```
-  $ sudo apt update
+  sudo apt update
   ```
  # Step 2: Download python3 source file
  
@@ -47,11 +47,11 @@ python3.10: command not found
  
  - command: 01
  ```
- $cd Downloads/
+ cd Downloads/
   ```
   - command: 02
   ```
- $wget https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz
+ wget https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz
  ```
  
  # Step 3: Unzip source file & installation
@@ -60,23 +60,23 @@ python3.10: command not found
  
  - command: 01
  ```
-  $ tar xvf Python-3.10.5.tgz
+  tar xvf Python-3.10.5.tgz
   ```
   - command: 02
   ```
-  $ cd Python-3.10.5/
+  cd Python-3.10.5/
   ```
   - command: 03
   ```
-  $ ./configure
+  ./configure
   ```
   - command:04
   ```
-  $ make
+  make
   ```
   - command: 05
   ```
-  $ sudo make install
+  sudo make install
 
  ```
 - Allow the process to complete and verify the Python version was installed sucessfully:
@@ -86,7 +86,7 @@ python3.10: command not found
 - After done installation now check, is sucecssfully python3 installed or not
 
  ```
- $ python3 --version
+ python3 --version
  
   ```
 
