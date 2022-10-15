@@ -51,7 +51,7 @@ python3.10: command not found
   ```
   - command: 02
   ```
- wget https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz
+ wget https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz
  ```
  
  # Step 3: Unzip source file & installation
