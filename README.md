@@ -1,4 +1,4 @@
-# PythonSetup_Linux
+# Python Setup in Linux
 
 - Python installation guide for linux user. This document describes how to install Pyrhon3 on 9Ubuntu or debain) based Linux system.
 
@@ -11,7 +11,7 @@
 - open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command 
 
  ```
- python3.10 --version
+ python3 --version
  
   ```
   
@@ -33,38 +33,33 @@ python3.10: command not found
   
   - If conditions : 01 is Okay then you should not install python3.
   -  If conditions : 02 is not Okay. then you should install python3 and then follow this steps.
+    
   
-# Step 1: Update and Refresh Repository Lists
+# Step 1: Download python3 source file From this python official website.
+ 
+ ```
+ https://www.python.org/downloads/source/
+  ```
 
-- open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command 
+ # Step 2: Update and Refresh Repository Lists
+
+- open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command.
 
   ```
   sudo apt update
   ```
- # Step 2: Download python3 source file
- 
- - Now. one by one copy & paste following commands
- 
- - command: 01
- ```
- cd Downloads/
-  ```
-  - command: 02
-  ```
- wget https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz
- ```
- 
+  
  # Step 3: Unzip source file & installation
  
  - Now one by one copy & paste following commands
  
  - command: 01
  ```
-  tar xvf Python-3.10.5.tgz
+  tar xvf [Downloaded package name. example: Python-3.x.x.tgz]
   ```
   - command: 02
   ```
-  cd Python-3.10.5/
+  cd [Downloaded package name. example: Python-3.x.x.tgz]
   ```
   - command: 03
   ```
@@ -81,7 +76,7 @@ python3.10: command not found
  ```
 - Allow the process to complete and verify the Python version was installed sucessfully:
 
-# Final Step: sucecssfully python3 installation check
+# Final Step: sucecssfully, python3 installation check
 
 - After done installation now check, is sucecssfully python3 installed or not
 
