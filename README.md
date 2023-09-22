@@ -1,6 +1,6 @@
-# Python Setup in Linux
+# Python installation on Linux
 
-- Python installation guide for linux user. This document describes how to install Pyrhon3 on 9Ubuntu or debain) based Linux system.
+- Python installation guide for linux user. This document describes how to install Pyrhon3 on Ubuntu or debain) based Linux system.
 
 # Installation Process
 
@@ -74,11 +74,11 @@ python3.10: command not found
   sudo make install
 
  ```
-- Allow the process to complete and verify the Python version was installed sucessfully:
+- Allow the process to complete and verify the Python version is installed sucessfully:
 
 # Final Step: sucecssfully, python3 installation check
 
-- After done installation now check, is sucecssfully python3 installed or not
+- After done installation now checkout. is python3 installed sucecssfully  or not
 
  ```
  python3 --version
