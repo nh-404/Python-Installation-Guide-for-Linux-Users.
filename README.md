@@ -1,15 +1,16 @@
-# Python installation on Linux
 
-- Python installation guide for linux user. This document describes how to install Pyrhon3 on Ubuntu or debain) based Linux system.
+# -Python Installation Guide for Linux Users
 
+- This document describes how to install Python3 on Ubuntu or Debian-based Linux systems.
+ 
 # Installation Process
 
-- First of all you should confrom about python3 installation. Is still python3 installed on your system...?
+- First of all, you should confirm whether Python3 is installed on your system.
 
 # Installation check
 
-- open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command 
-
+- Open your Linux terminal by pressing and holding (Alt + Ctrl + T), then run the following command:
+ 
  ```
  python3 --version
  
@@ -25,17 +26,17 @@ Type "help", "copyright", "credits" or "license" for more information.
 
  ```
  - Conditions : 02 
- - And python3 is not installed sucecssfully, Then showing this result
+ - And if Python 3 is not installed successfully, it will display the following result (EXAMPLE):
  
   ```
 python3.10: command not found
   ```
   
-  - If conditions : 01 is Okay then you should not install python3.
-  -  If conditions : 02 is not Okay. then you should install python3 and then follow this steps.
+  - Condition 01: If it is okay, you do not need to install Python3.
+  - Condition 02: If it is not okay, you should install Python3 and then follow these steps.
     
   
-# Step 1: Download python3 source file From this python official website.
+# Step 1: Download the Python 3 source file from the official Python website.
  
  ```
  https://www.python.org/downloads/source/
@@ -53,39 +54,64 @@ python3.10: command not found
  
  - Now one by one copy & paste following commands
  
- - command: 01
+ - Command: 01
  ```
   tar xvf [Downloaded package name. example: Python-3.x.x.tgz]
   ```
-  - command: 02
+  - Command: 02
   ```
   cd [Downloaded package name. example: Python-3.x.x.tgz]
   ```
-  - command: 03
+  - Command: 03
+    
+  - For a NEW install
+    
   ```
   ./configure
   ```
-  - command:04
+
+  - To UPGRADE an already installed version
+
+   ```
+  ./configure --enable-optimizations
+  
+  ```
+ 
+  - Command:04
+
   ```
   make
+  
   ```
-  - command: 05
+
+  - Command: 05
+    
+
+  - For a NEW install
+ 
   ```
   sudo make install
 
- ```
-- Allow the process to complete and verify the Python version is installed sucessfully:
+  ```
+
+  - To UPGRADE an already installed version
+
+  ```
+   sudo make altinstall
+ 
+  ```
+     
 
 # Final Step: sucecssfully, python3 installation check
 
-- After done installation now checkout. is python3 installed sucecssfully  or not
+- After completing the installation, check if Python3 was installed successfully.
 
  ```
  python3 --version
  
   ```
 
-- if python3 is installed sucecssfully, Then showing this result
+- If Python3 is installed successfully, it will display the following result:
 
  ```
 Python 3.10.5 (main, Jun 26 2022, 13:09:33) [GCC 9.4.0] on linux
