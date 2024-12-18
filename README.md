@@ -1,5 +1,5 @@
 
-# -Python Installation Guide for Linux Users
+# Python Installation Guide for Linux Users
 
 - This document describes how to install Python3 on Ubuntu or Debian-based Linux systems.
  
