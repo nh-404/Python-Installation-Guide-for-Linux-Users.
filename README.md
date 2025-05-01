@@ -70,13 +70,13 @@ python3.10: command not found
   ```
   - Command: 03
     
-  - For a NEW install
+  ### To perform a fresh installation of Python:
     
   ```
   ./configure
   ```
 
-  - To UPGRADE an already installed version
+  ### To upgrade an existing installation of Python:
 
    ```
   ./configure --enable-optimizations
@@ -93,14 +93,14 @@ python3.10: command not found
   - Command: 05
     
 
-  - For a NEW install
+  ### To perform a fresh installation of Python:
  
   ```
   sudo make install
 
   ```
 
-  - To UPGRADE an already installed version
+   ### To upgrade an existing installation of Python:
 
   ```
    sudo make altinstall
@@ -110,14 +110,14 @@ python3.10: command not found
 
 # Final Step: sucecssfully, python3 installation check
 
-- After completing the installation, check if Python3 was installed successfully.
+- Once the installation is complete, verify that Python 3 was installed successfully.
 
  ```
  python3 --version
  
   ```
 
-- If Python3 is installed successfully, it will display the following result:
+- If Python 3 has been installed successfully, you’ll see the following output:
 
  ```
 Python 3.10.5 (main, Jun 26 2022, 13:09:33) [GCC 9.4.0] on linux
