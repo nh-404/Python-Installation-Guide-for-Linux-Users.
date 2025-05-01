@@ -7,23 +7,23 @@
 
 # Python Installation Guide for Linux Users
 
-- This document describes how to install Python3 on Ubuntu or Debian-based Linux systems.
+- This document explains how to install Python 3 on Ubuntu or other Debian-based Linux systems.
  
-# Installation Process
+## Installation Process
 
-- First of all, you should confirm whether Python3 is installed on your system.
+- First, confirm whether Python 3 is installed on your system..
 
-# Installation check
+## Installation check
 
-- Open your Linux terminal by pressing and holding (Alt + Ctrl + T), then run the following command:
+- Open your Linux terminal by pressing (Ctrl + Alt + T), then run the following command:
  
  ```
  python3 --version
  
   ```
   
-  - Conditions :  01
-  - if python3 is installed, Then showing this result
+  ### Conditions :  01
+  - Check if Python 3 is already installed: No further action is needed install Python3.
 
  ```
 Python 3.10.5 (main, Jun 26 2022, 13:09:33) [GCC 9.4.0] on linux
@@ -31,34 +31,31 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 
  ```
- - Conditions : 02 
- - And if Python 3 is not installed successfully, it will display the following result (EXAMPLE):
+ ### Conditions : 02 
+ - If Python 3 isn’t installed, the terminal may display something like this:
  
   ```
 python3.10: command not found
   ```
-  
-  - Condition 01: If it is okay, you do not need to install Python3.
-  - Condition 02: If it is not okay, you should install Python3 and then follow these steps.
     
   
-# Step 1: Download the Python 3 source file from the official Python website.
+## Step 1: Download the Python 3 source file from the official Python website.
  
  ```
  https://www.python.org/downloads/source/
   ```
 
- # Step 2: Update and Refresh Repository Lists
+ ## Step 2: Update and Refresh Repository Lists
 
-- open your linux terminal or press and hold (Alt + Ctrl + T). then run follwing this command.
+- open your linux terminal or press and hold  (Alt + Ctrl + T). then run follwing this command.
 
   ```
   sudo apt update
   ```
   
- # Step 3: Unzip source file & installation
+ ## Step 3: Unzip source file & installation
  
- - Now one by one copy & paste following commands
+ - Now copy & paste following commands
  
  - Command: 01
  ```
